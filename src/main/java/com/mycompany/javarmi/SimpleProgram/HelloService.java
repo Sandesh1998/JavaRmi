@@ -8,10 +8,6 @@ package com.mycompany.javarmi.SimpleProgram;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
-/**
- *
- * @author sagar
- */
 public interface HelloService extends Remote {
     public String echo(String input) throws RemoteException;
 }

@@ -4,18 +4,11 @@
  */
 package com.mycompany.javarmi.SimpleProgram;
 
-/**
- *
- * @author sagar
- */
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
-/**
- *
- * @author sagar
- */
+
 public class HelloServant extends UnicastRemoteObject implements HelloService{
 
     public HelloServant() throws RemoteException {
