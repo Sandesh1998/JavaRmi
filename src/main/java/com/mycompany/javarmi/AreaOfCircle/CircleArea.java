@@ -7,10 +7,6 @@ package com.mycompany.javarmi.AreaOfCircle;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
-/**
- *
- * @author sagar
- */
 public interface CircleArea extends Remote {
   public double getArea(double radius) throws RemoteException;
 }

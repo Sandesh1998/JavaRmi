@@ -3,11 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.javarmi.AreaOfCircle;
-
-/**
- *
- * @author sagar
- */
 import java.rmi.Naming;
 
 public class CircleAreaClient {

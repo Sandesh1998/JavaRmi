@@ -7,10 +7,6 @@ package com.mycompany.javarmi.AreaOfCircle;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
-/**
- *
- * @author sagar
- */
 public class CircleAreaImpl extends UnicastRemoteObject implements CircleArea {
 
     public CircleAreaImpl() throws RemoteException {
